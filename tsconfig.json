@@ -46,6 +46,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     // .d.ts 파일은 체크하지 않음
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    // 빈 배열이 never 타입으로 추론됨.
+    // https://ui.toast.com/weekly-pick/ko_2022032: never관련 아티클 참고
+    "noImplicitAny": false
   }
 }
