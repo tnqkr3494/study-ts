@@ -20,6 +20,12 @@
     "declaration": true,
     "declarationMap": true,
 
+    // 대소문자 지켜서 import
+    "forceConsistentCasingInFileNames": true,
+
+    // 추후 라이브러리 분석할 때 설명
+    "esModuleInterop": true,
+
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
@@ -39,6 +45,7 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
+    // .d.ts 파일은 체크하지 않음
     "skipLibCheck": true
   }
 }
